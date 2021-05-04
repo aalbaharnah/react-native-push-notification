@@ -4,7 +4,8 @@
   "description": "React Native Local and Remote Notifications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "windows": "react-native run-windows"
   },
   "keywords": [
     "react-component",
@@ -28,5 +29,10 @@
     "react-native": ">=0.33"
   },
   "author": "zo0r <http://zo0r.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-windows": "latest"
+  }
 }
